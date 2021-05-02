@@ -18,7 +18,7 @@
     <developers>
         <developer>
             <id>hom</id>
-            <email>p.vandenhombergh@fontys.nl</email>
+            <email>pieter.van.den/homberghp@gmail.com</email>
             <name>Pieter van den Hombergh</name>
             <organization>Fontys Hogeschool voor Techniek en Logistiek,
                 Opleidingen Software Engineering en Business Informatica</organization>
@@ -32,14 +32,19 @@
     <artifactId>sebipom</artifactId>
     <version>3.0.3</version>
     <packaging>pom</packaging>
-    <name>SEBIVenlo :: SEBIPom</name>
+    <name>Homberghp :: SEBIPom</name>
     <url>https://www.fontysvenlo.org/repository</url>
 
     <distributionManagement>
         <repository>
+            <id>github</id>
+            <name>GitHub homberghp Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/homberghp/sebipom</url>
+        </repository>
+        <!--        <repository>
             <id>fontysvenlo.org</id>
             <url>scpexe://fontysvenlo.org/home/repository</url>
-        </repository>
+        </repository>-->
         <site>
             <id>javabits.fontysvenlo.org</id>
             <url>scpexe://fontysvenlo.org/home/javabits/public_html/</url>

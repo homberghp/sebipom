@@ -20,13 +20,29 @@ You can use the configuration by defining sebipom as the parent by simply adding
   <parent>
       <groupId>nl.fontys.sebivenlo</groupId>
       <artifactId>sebipom</artifactId>
-      <version>3.0.2</version>
+      <version>3.0.3</version>
       <relativePath/>
   </parent>
 ----
 
 to your project's pom.
 
+[NOTE]
+====
+From 2021-05-02 I publish sebipom at a github packages respository.
+To make that repository effective, add the following to your  `~/.m2/settings.xml` file:
+
+[source,xml]
+----
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/homberghp/*</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+----
+====
 
 Sebi pom has some goodies that make it easy to use features with maven+java without falling into an install fest.
 Feature:
